@@ -1,230 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daryl Choo's Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daryl Choo</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
 </head>
 
 <body>
 
-    <header class="header">
-        <nav class="navbar">
-            <div class="logo">
-                <h1 class="logo-heading">Daryl Choo</h1>
-            </div>
-            <div class="hamburger" id="hamburger">
-                <i class="fa fa-bars hamburger-icon"></i>
-                <i class="fa fa-times cross-icon"></i>
-            </div>
-            <div class="menu">
-                <ul class="menu-list">
-                    <li class="menu-list-items">
-                        <a class="links" href="#home">Home</a>
-                    </li>
-                    <li class="menu-list-items">
-                        <a class="links" href="#about">About</a>
-                    </li>
-                    <li class="menu-list-items">
-                        <a class="links" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="menu-list-items">
-                        <a class="links" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+  <header id="header">
+    <div>
+      <h1>Daryl Choo Chia Ler</h1>
+    </div>
+    <div>
+      <h3 class="inline-header"><a href="media/Daryl Choo Resume 2025.pdf" target="_blank" class="resume-link">Resume</a></h3>
+      <button id="theme-toggle" class="theme-toggle">
+        <img id="theme-icon" src="media/sun.png" alt="Theme Toggle">
+      </button>
+    </div>
+  </header>
 
-    <section id="home" class="hero">
-        <div class="slideshow">
-            <div class="slide" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(media/nasa.jpg);"></div>
-            <div class="slide" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(media/shell.jpg);"></div>
-            <div class="slide" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(media/cuewb.jpg);"></div>
-            <div class="slide" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(media/ewb.jpg);"></div>
-            <div class="slide" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(media/ucl.jpg);"></div>
-        </div>
-        <div class="intro">
-            <div class="headings">
-                <h3 class="greet-heading">Hey! I'm</h3>
-                <h2 class="my-heading">Daryl Choo</h2>
-                <h4 class="sub-heading">
-                    A motivated self-starter with a strong foundation in Electrical Engineering and Computer Science at Columbia University, 
-                    hands-on leadership experience at NASA and Shell, 
-                    passionate about software engineering and the energy industry.  
-                </h4>
-            </div>
-            <div class="intro-buttons">
-                <button class="btn common-btn"><a href="media/Daryl Choo Resume 2024.pdf" target="_blank">Resume</a></button>
-            </div>
-        </div>
+  <main>
+    <section class="left-section">
+      <p class="inline-header">
+        Hey! I'm <h2 class="inline-header">Daryl Choo</h2>, a senior undergraduate Electrical Engineering student at Columbia University.
+      </p>
+
+      <h2>Experience</h2>
+      <ul>
+        <li>Mission Director at <a href="https://www.nasa.gov/learning-resources/micro-g-neutral-buoyancy-experiment-designteams/" target="_blank">NASA Micro-g NExT</a></li>
+        <li>Research Assistant at <a href="https://sharondi-columbia.wixsite.com/ditectlab" target="_blank">Columbia DitecT Lab</a></li>
+        <li>Research Assistant at <a href="https://www.ucl.ac.uk/electronic-electrical-engineering/research/sensors-systems-and-circuits" target="_blank">UCL</a></li>
+        <li>Electrical Engineering Intern at <a href="https://www.shell.com/" target="_blank">Shell</a></li>
+        <li>Technical Team Lead at <a href="https://ewb-usa.org/" target="_blank">Engineers Without Borders</a></li>
+      </ul>
+
+      <h2>Languages</h2>
+      <div class="skills-grid">
+        <li>Python</li>
+        <li>Java</li>
+        <li>MATLAB</li>
+        <li>JavaScript</li>
+        <li>SQL</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>MIPS</li>
+        <li>Arduino</li>
+      </div>
+
+      <h2>Frameworks / Tools</h2>
+      <div class="skills-grid">
+        <li>TensorFlow</li>
+        <li>PyTorch</li>
+        <li>Linux</li>
+        <li>GitHub</li>
+        <li>NodeJS</li>
+        <li>Express</li>
+        <li>REST API</li>
+        <li>OpenCV</li>
+        <li>ROS</li>
+      </div>
+
+      <h2>Software</h2>
+      <div class="skills-grid">
+        <li>Cadence</li>
+        <li>Unity</li>
+        <li>AutoCAD</li>
+        <li>Altium</li>
+        <li>SOLIDWORKS</li>
+        <li>Simulink</li>
+        <li>LTSpice</li>
+      </div>
+
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:dcc2161@columbia.edu" target="_blank">dcc2161@columbia.edu</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/daryl-chia-ler-choo" target="_blank">linkedin.com/in/daryl-chia-ler-choo</a></p>
+      <p>GitHub: <a href="https://github.com/darylchooo" target="_blank">github.com/darylchooo</a></p>
     </section>
 
-    <section id="about" class="about">
-        <div class="about-text">
-            <h2 class="my-heading">About Me</h2>
-            <p class="lead-para">
-                Hey! I'm Daryl Choo, a senior majoring in Electrical Engineering with a minor in Computer Science at Columbia University, 
-                excited to explore opportunities in Electrical and Software Engineering. 
-            </p>
-            <p>
-                With hands-on leadership experience at NASA and Shell, 
-                I am honored to be one of seven scholars selected from over 3,000 applicants for the Shell Scholarship Programme, 
-                which has fully funded my undergraduate studies at Columbia University and University College London (UCL). 
-            </p>
-            <p>
-                If you are seeking a motivated self-starter passionate about software engineering and the energy industry, 
-                let's <a class="links" href="#contact">connect</a>!  
-            </p>
+    <section class="project-section">
+      <div class="project-card" id="project-card" data-tags="TensorFlow/PyTorch, OpenCV, Python">
+        <div class="image">
+          <img src="media/saved_frame_2024-07-14 14-50-00.png" alt="computer-vision-image">
+        </div> 
+        <div class="video">
+          <video src="media/see-lion.mp4" autoplay loop muted></video>
         </div>
-        <div class="about-image">
-            <img src="media/IMG_2850.jpg" alt="about-image">
+        <h3>
+          <a href="https://github.com/darylchooo/yolo" target="_blank">Columbia SEE LION</a>
+        </h3>
+        <p>YOLO Object Detection for Astronaut Rescue</p>
+        <p>Accepted for NASA Micro-g NExT 2023/24</p>
+        <div class="data-tags">
+          <p>AI/ML</p>
+          <p>TensorFlow</p>
+          <p>PyTorch</p>
+          <p>Computer Vision</p>
+          <p>Python</p>
+          <p>OpenCV</p>
         </div>
+      </div>
+
+      <div class="project-card" id="project-card" data-tags="TensorFlow/PyTorch, ROS, SOLIDWORKS, Python">
+        <div class="image">
+          <img src="media/robotics.png" alt="robotics-image">
+        </div> 
+        <div class="video">
+          <video src="media/ppo.mp4" autoplay loop muted></video>
+        </div>
+        <h3>
+          <a href="https://github.com/darylchooo/ppo" target="_blank">Columbia Robotics Studio</a>
+        </h3>
+        <p>PPO reinforcement learning with OpenAI Gym environment in PyBullet</p>
+        <div class="data-tags">
+          <p>AI/ML</p>
+          <p>TensorFlow</p>
+          <p>PyTorch</p>
+          <p>ROS</p>
+          <p>Python</p>
+          <p>Robotics</p>
+          <p>PPO</p>
+          <p>RL</p>
+          <p>SOLIDWORKS</p>
+        </div>
+      </div>
+
+      <div class="project-card" id="project-card" data-tags="Python, HTML, CSS, JavaScript, MySQL, NodeJS, Express, REST API">
+        <div class="image">
+          <img src="media/gap.jpg" alt="full-stack-image">
+        </div>
+        <div class="video">
+          <video src="media/gap.mp4" autoplay loop muted></video>
+        </div>
+        <h3>
+          <a href="https://github.com/darylchooo/gap" target="_blank">GAP</a>
+        </h3>
+        <p>Full Stack Web Development for Gastrointestinal Patient Survey</p>
+        <p>Rome Foundation Research Award Winner 2024</p>
+        <div class="data-tags">
+          <p>Full Stack</p>
+          <p>Web Development</p>
+          <p>Python</p>
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>JavaScript</p>
+          <p>MySQL</p>
+          <p>NodeJS</p>
+          <p>Express</p>
+          <p>REST API</p>
+        </div>
+      </div>
     </section>
-
-    <section class="portfolio" id="portfolio">
-        <div class="portfolio-heading">
-            <h2 class="my-heading text-center">Portfolio</h2>
-        </div>
-        <div class="portfolio-content">
-            <div class="my-row">
-                <div class="my-col">
-                    <div class="my-card port-card">
-                        <div class="image">
-                            <img src="media/gap.jpg" alt="full-stack-image">
-                        </div>
-                        <div class="video">
-                            <video src="media/gap.mp4" autoplay loop muted></video>
-                        </div> 
-                        <h3 class="greet-heading blue-text">
-                            <a href="https://github.com/darylchooo/gap" target="_blank">Full-Stack Development</a>
-                        </h3>
-                        <p class="small-para blue-text">
-                            At the Department of Neurosciences at the Science University of Malaysia, 
-                            I was awarded $1,300 from the Rome Foundation for the Gastrointestinal Animated Pictograms (GAP) project. 
-                            To develop a full-stack web application to survey gastrointestinal patients for the GAP project, 
-                            I connected a <span style="font-weight: bolder;">HTML</span>, 
-                            <span style="font-weight: bolder;">CSS</span> and <span style="font-weight: bolder;">Javascript</span> front end to a <span style="font-weight: bolder;">Node.js</span> server using <span style="font-weight: bolder;">Express.js</span>, 
-                            integrating to perform CRUD operations on a <span style="font-weight: bolder;">MySQL</span> database, 
-                            and deploying on <span style="font-weight: bolder;">AWS</span>. 
-                        </p>
-                    </div>
-                </div>
-                <div class="my-col">
-                    <div class="my-card port-card">
-                        <div class="image">
-                            <img src="media/cuewb.jpg" alt="front-end-image">
-                        </div>
-                        <div class="video">
-                            <video src="media/cuewb.mp4" autoplay loop muted></video>
-                        </div>
-                        <h3 class="greet-heading blue-text">
-                            <a href="https://github.com/darylchooo/cuewb" target="_blank">Front-End Web Development</a>
-                        </h3>
-                        <p class="small-para blue-text">
-                            As Technical Team Lead at Engineers Without Borders USA, 
-                            I raised 40% of annual funds to build solar microgrids serving 30 businesses, 2 schools and 1 medical center in Uganda, 
-                            by using <span style="font-weight: bolder;">HTML</span>, 
-                            <span style="font-weight: bolder;">CSS</span> and <span style="font-weight: bolder;">Javascript</span>
-                            to create and maintain websites for the Columbia University Chapter of Engineers Without Borders USA (CUEWB). 
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="my-row">
-                <div class="my-col">
-                    <div class="my-card port-card">
-                        <div class="image">
-                            <img src="media/saved_frame_2024-07-14 14-50-00.png" alt="computer-vision-image">
-                        </div> 
-                        <div class="video">
-                            <video src="media/IMG_7548.mp4" autoplay loop muted></video>
-                        </div>
-                        <h3 class="greet-heading blue-text">
-                            <a href="https://github.com/darylchooo/nasa-micro-g-next" target="_blank">Computer Vision</a>
-                        </h3>
-                        <p class="small-para blue-text">
-                            As Mission Director of the NASA Micro-gravity Neutral Buoyancy Experiment Design Team (Micro-g NExT) at the Columbia Space Initiative, 
-                            I was ranked among the top 3 finalist teams at the NASA Johnson Space Center Neutral Buoyancy Laboratory, 
-                            for developing an autonomous camera prototype using <span style="font-weight: bolder;">Ultralytics</span> and <span style="font-weight: bolder;">OpenCV</span> to implement a <span style="font-weight: bolder;">You Only Look Once (YOLO)</span> object detection algorithm with 78% mean average precision,
-                            to detect and track astronauts in Orion capsule emergency water landings for the Artemis program. 
-                        </p>
-                    </div>
-                </div>
-                <div class="my-col">
-                    <div class="my-card port-card">
-                        <div class="image">
-                            <img src="media/robotics.png" alt="robotics-image">
-                        </div>
-                        <div class="video">
-                            <video src="media/simulation.mp4" autoplay loop muted></video>
-                        </div>
-                        <h3 class="greet-heading blue-text">
-                            <a href="https://github.com/darylchooo/robotics-studio" target="_blank">Robotics</a>
-                        </h3>
-                        <p class="small-para blue-text">
-                            At the Columbia University Robotics Studio, 
-                            I increased the walking speed of autonomous quadrupedal robots, 
-                            by applying a <span style="font-weight: bolder;">Proximal Policy Optimization (PPO)</span> algorithm to <span style="font-weight: bolder;">Robot Operating System (ROS)</span> simulations in <span style="font-weight: bolder;">Pybullet</span>. 
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="contact" id="contact">
-        <div class="contact-heading">
-            <h2 class="my-heading text-center">Contact Me</h2>
-        </div>
-        <div class="contact-details">
-            <div class="details">
-                <h3 class="contact-heading">EMAIL</h3>
-                <p class="contact-text"><a href="mailto:dcc2161@columbia.edu">dcc2161@columbia.edu</a></p>
-            </div>
-            <div class="details">
-                <h3 class="contact-heading">PHONE</h3>
-                <p class="contact-text">+1 (929) 786-9127</p>
-            </div>
-            <div class="details">
-                <h3 class="contact-heading">ADDRESS</h3>
-                <p class="contact-text">dcc2161, Columbia Student Mail,</p>
-                <p class="contact-text">70 Morningside Drive,</p>
-                <p class="contact-text">New York, 10027, NY</p>
-            </div>
-        </div>
-    </section>
-
-    <footer class="footer">
-        <div class="footer-content text-center">
-            <div class="social-links">
-                <div class="footer-menu">
-                    <ul class="footer-menu-list">
-                        <li class="footer-list-items">
-                            <a class="footer-links" href="https://github.com/darylchooo" target="_blank">
-                                <i class="fa fa-github" style="color: blueviolet;"></i>
-                            </a>
-                        </li>
-                        <li class="footer-list-items"> 
-                            <a class="footer-links" href="https://www.linkedin.com/in/daryl-chia-ler-choo" target="_blank"> 
-                                <i class="fa fa-linkedin-square"></i> 
-                            </a> 
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <h3>
-                Created by Daryl Choo using HTML, CSS and Javascript
-            </h3>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
-
+  </main>
+  
 </body>
 
-</html>
+</html> 
